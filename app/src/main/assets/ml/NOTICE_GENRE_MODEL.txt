@@ -1,0 +1,7 @@
+Musical-genres-Classification-Hubert-V1 (ONNX quantized)
+Source: https://huggingface.co/onnx-community/Musical-genres-Classification-Hubert-V1-ONNX
+Original: https://huggingface.co/SeyedAli/Musical-genres-Classification-Hubert-V1
+Base: ntu-spml/distilhubert
+License: Apache License 2.0
+Dataset used for fine-tuning: GTZAN (marsyas/gtzan)
+SHA256 (model_quantized.onnx): f26299dd32a5b77fe343e525f8369dae2b18600e1cdf80bb33a4a9efc661af98
