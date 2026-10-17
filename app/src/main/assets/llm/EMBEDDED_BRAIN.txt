@@ -1,0 +1,12 @@
+Secret Player – Embedded Intent Brain
+======================================
+This APK ships an on-device intent interpreter compiled into the app
+(com.mp.player.ai.llm.EmbeddedIntentBrain).
+
+- No download after install
+- No cloud / no API
+- No separate model file the user must install
+- Loaded only when LlmGate.needsHelp() is true
+- Released after use (stateless)
+
+Track selection stays with GenreProfile / TrackSimilarity / Recommender.

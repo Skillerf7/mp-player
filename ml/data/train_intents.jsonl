@@ -1,0 +1,462 @@
+{"text": "kannst du daraus was traurigeres machen", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "noch mehr davon", "labels": ["intent_similar_track"]}
+{"text": "mach wieder was wie meine chill-rap playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr bpm", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "spiel sie", "labels": ["intent_start"]}
+{"text": "treibender", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "mehr bpm aber trotzdem chillig", "labels": ["intent_refine"]}
+{"text": "gib mir hiphop", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "bro mehr rap rein aber nicht so aggressiv", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "weniger energie", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "kannst du daraus was traurigeres baueen", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "etwas melancholischer", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "nicht ganz so schnell xd", "labels": ["intent_refine"]}
+{"text": "mehr bpm aber trotzdem chillig", "labels": ["intent_refine"]}
+{"text": "melancholischer rap", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro spiel rap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "weniger bpm", "labels": ["intent_refine"]}
+{"text": "nicht ganz so schnell bitte", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "ruhiger im tempo xd", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "langsamer", "labels": ["intent_refine"]}
+{"text": "noch mehr davon", "labels": ["intent_similar_track"]}
+{"text": "schneller aber chillig xd", "labels": ["intent_refine"]}
+{"text": "mach was ruhigeres", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro mach an", "labels": ["intent_start"]}
+{"text": "was zum feiern xd", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "bro mach was ruhigeres", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "nicht ganz so schnell bitte", "labels": ["intent_refine"]}
+{"text": "los", "labels": ["intent_start"]}
+{"text": "mehr bpm aber trotzdem chillig bitte", "labels": ["intent_refine"]}
+{"text": "schneller aber chillig", "labels": ["intent_refine"]}
+{"text": "mach mir eine playlist wie meine chill rap sammlung bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr bpm bitte", "labels": ["intent_refine"]}
+{"text": "start xd", "labels": ["intent_start"]}
+{"text": "schneller aber chillig", "labels": ["intent_refine"]}
+{"text": "schneller", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "mach die playlist trauriger", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mehr bpm", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "ich will sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr wie das", "labels": ["intent_similar_track"]}
+{"text": "los", "labels": ["intent_start"]}
+{"text": "mehr tempo", "labels": ["intent_refine"]}
+{"text": "mach wieder was wie meine chill-rap playlist bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "schneller bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "bro mach mir wieder sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "baue die playlist trauriger", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "baue sie depri", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mehr sad vibes", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "baue mir wieder sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bau sowas wie meine rap wiedergabeliste bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "kannst du daraus was traurigeres machen xd", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "erstell was aehnliches zu meiner rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "weniger bpm", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "wie meine schillah playlist bitte xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro kannst du daraus was traurigeres machen", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "spiel rolexz bitte", "labels": ["intent_search"]}
+{"text": "weniger bpm xd", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "noch mehr davon bitte", "labels": ["intent_similar_track"]}
+{"text": "bro wo ist apache", "labels": ["intent_search"]}
+{"text": "nicht ganz so schnell", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "etwas schneller bitte bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "spiel sie", "labels": ["intent_start"]}
+{"text": "playlist wie meine deutschrap liste xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro etwas schneller bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "mehr druck xd", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "davon aehnliche tracks", "labels": ["intent_similar_track"]}
+{"text": "mehr tempo bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "bau sowas wie meine rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bau sowas wie meine rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "gib mir hiphop bitte", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "baue tekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "spiel rap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "mach an", "labels": ["intent_start"]}
+{"text": "bro mach die playlist trauriger", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bau was wie meine schillah wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bock auf hardtekk xd", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "bro treibender", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "bau mir etwas wie meine rap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "los bitte", "labels": ["intent_start"]}
+{"text": "langsamer", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "etwas melancholischer", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mehr druck bitte", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "mach was ruhigeres bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bau was wie meine chill-rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "playlist wie meine schillah liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr solcher tracks xd", "labels": ["intent_similar_track"]}
+{"text": "spiel hardtekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "chilliger bitte bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "mach sowas wie meine rap playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "etwas schneller bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "bro noch mehr davon", "labels": ["intent_similar_track"]}
+{"text": "deutschrap melancholisch", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mach sie aggressiver", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "ruhiger im tempo", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "bau mir sowas in richtung schillah playlist xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "baue sie aggressiver", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "mach sie aggressiver bitte", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "bro mehr solcher tracks", "labels": ["intent_similar_track"]}
+{"text": "mach sie aggressiver", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "bau mir etwas wie meine rap liste bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "start bitte", "labels": ["intent_start"]}
+{"text": "playlist wie meine chill-rap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "aggressiver bitte", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "entspannter bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "mehr rap rein aber nicht so aggressiv xd", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mehr solcher tracks bitte", "labels": ["intent_similar_track"]}
+{"text": "bro bau mir sowas in richtung schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach tekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "ich will mehr von diesem vibe", "labels": ["intent_similar_track"]}
+{"text": "mach die playlist trauriger", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "ok start xd", "labels": ["intent_start"]}
+{"text": "etwas schneller bitte bitte", "labels": ["intent_refine"]}
+{"text": "mehr rap rein aber nicht so aggressiv bitte", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro rap aber chillig", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mehr sad vibes", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro mehr tempo", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "sanfter", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro mach wieder was wie meine chill-rap playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro deutschrap melancholisch", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "noch mehr davon xd", "labels": ["intent_similar_track"]}
+{"text": "mehr druck", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "bro erstell was aehnliches zu meiner rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "melancholischer rap", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "langsamer bitte", "labels": ["intent_refine"]}
+{"text": "bro mehr bpm", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "melancholischer rap", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "etwas melancholischer bitte", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro nochmal wie meine schillah", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bau mir sowas in richtung schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "schneller aber chillig bitte", "labels": ["intent_refine"]}
+{"text": "bro davon aehnliche tracks", "labels": ["intent_similar_track"]}
+{"text": "weniger bpm bitte", "labels": ["intent_refine"]}
+{"text": "bau sowas wie meine rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "treibender", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "bro haerter", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "weniger bpm", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "bro such bonez mc", "labels": ["intent_search"]}
+{"text": "haerter", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "sanfter xd", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "spiel rolexz xd", "labels": ["intent_search"]}
+{"text": "bro playlist wie meine deutschrap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "nicht ganz so schnell", "labels": ["intent_refine"]}
+{"text": "entspannter", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro spiel sie", "labels": ["intent_start"]}
+{"text": "aggressiver bitte", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "bock auf deutschrap bitte", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "mach rap xd", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "schneller", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "melancholischer rap bitte", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "spiel rap xd", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "party musik xd", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "schneller xd", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "bro aehnliche songs", "labels": ["intent_similar_track"]}
+{"text": "bro mach was in richtung meiner chill rap sammlung", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "ich will sowas wie meine schillah playlist bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach die playlist trauriger xd", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "langsamer", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "mach wieder was wie meine chill-rap playlist xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "weniger energie", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "mehr wie das xd", "labels": ["intent_similar_track"]}
+{"text": "bro nicht ganz so schnell", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "party musik", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "aehnliche songs xd", "labels": ["intent_similar_track"]}
+{"text": "bau mir sowas in richtung schillah playlist bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr sad vibes xd", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "rap aber chillig", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mehr sad vibes bitte", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mehr tempo", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "weniger bpm bitte", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "spiel hardtekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "chilliger bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro mach mehr rap rein aber nicht so aggressiv", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "chilliger bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "mach was ruhigeres", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "wie meine schillah playlist bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro weniger energie", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "aehnliche songs", "labels": ["intent_similar_track"]}
+{"text": "spiel rolexz", "labels": ["intent_search"]}
+{"text": "chilliger bitte xd", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "was zum feiern", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "bau was wie meine lieblingssongs wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro entspannter", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "wieder was in richtung nacht", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr bpm", "labels": ["intent_refine"]}
+{"text": "playlist wie meine deutschrap liste bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach an bitte", "labels": ["intent_start"]}
+{"text": "etwas schneller bitte", "labels": ["intent_refine"]}
+{"text": "such bonez mc xd", "labels": ["intent_search"]}
+{"text": "bro spiel hardtekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "ruhiger im tempo", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "mehr rap rein aber nicht so aggressiv", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bau was wie meine nacht wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bock auf party", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "such bonez mc", "labels": ["intent_search"]}
+{"text": "bro los", "labels": ["intent_start"]}
+{"text": "haerter bitte", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "nochmal wie meine schillah xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "wo ist apache", "labels": ["intent_search"]}
+{"text": "was zum feiern", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "mach sie depri bitte", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "start", "labels": ["intent_start"]}
+{"text": "nochmal wie meine schillah bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "rap aber chillig", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "etwas schneller bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "such bonez mc", "labels": ["intent_search"]}
+{"text": "mach sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr wie das", "labels": ["intent_similar_track"]}
+{"text": "aehnliche songs", "labels": ["intent_similar_track"]}
+{"text": "mach sie depri xd", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "aggressiver bitte xd", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "kannst du daraus was traurigeres machen", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro ok start", "labels": ["intent_start"]}
+{"text": "mehr tempo", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "mach was ruhigeres xd", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "spiel hardtekk bitte", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "erstell was aehnliches zu meiner rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro mach sie depri", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro ruhiger im tempo", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "party musik bitte", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "bro weniger bpm", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "bro mach mir eine playlist wie meine chill rap sammlung", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr tempo bitte", "labels": ["intent_refine"]}
+{"text": "mehr bpm aber trotzdem chillig xd", "labels": ["intent_refine"]}
+{"text": "bro mehr bpm aber trotzdem chillig", "labels": ["intent_refine"]}
+{"text": "bock auf deutschrap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "bau was wie meine deutschrap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr solcher tracks", "labels": ["intent_similar_track"]}
+{"text": "bro bock auf party", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "mehr tempo", "labels": ["intent_refine"]}
+{"text": "mehr tempo xd", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "bock auf hardtekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "mach mir eine playlist wie meine chill rap sammlung", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "nicht ganz so schnell", "labels": ["intent_refine"]}
+{"text": "bro mach sie aggressiver", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "mehr rap rein aber nicht so aggressiv", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "entspannter", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro bau sowas wie meine rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "party musik", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "mach was in richtung meiner chill rap sammlung", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr druck", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "playlist wie meine rap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro start", "labels": ["intent_start"]}
+{"text": "davon aehnliche tracks xd", "labels": ["intent_similar_track"]}
+{"text": "playlist wie meine deutschrap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach an xd", "labels": ["intent_start"]}
+{"text": "spiel hardtekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "mehr rap rein aber nicht so aggressiv", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "baue rap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "weniger bpm xd", "labels": ["intent_refine"]}
+{"text": "spiel rolexz", "labels": ["intent_search"]}
+{"text": "bock auf deutschrap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "bro etwas melancholischer", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "ich will mehr von diesem vibe", "labels": ["intent_similar_track"]}
+{"text": "rap aber chillig bitte", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "spiel sie", "labels": ["intent_start"]}
+{"text": "bau mir etwas wie meine rap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "weniger energie xd", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro chilliger bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro ich will mehr von diesem vibe", "labels": ["intent_similar_track"]}
+{"text": "bro mach tekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "mehr bpm xd", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "mach sie depri", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bock auf party", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "gib mir hiphop xd", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "party musik", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "etwas melancholischer", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mach sie aggressiver xd", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "mach mir eine playlist wie meine chill rap sammlung", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "baue mir eine playlist wie meine chill rap sammlung", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "ok start bitte", "labels": ["intent_start"]}
+{"text": "bro mehr druck", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "wie meine schillah playlist bitte bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "aehnliche songs bitte", "labels": ["intent_similar_track"]}
+{"text": "mehr tempo xd", "labels": ["intent_refine"]}
+{"text": "nochmal wie meine schillah", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro mehr tempo", "labels": ["intent_refine"]}
+{"text": "mehr bpm bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "wo ist apache xd", "labels": ["intent_search"]}
+{"text": "mach rap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "bau sowas wie meine rap wiedergabeliste xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr druck", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "etwas schneller bitte xd", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "mach mir wieder sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach mehr rap rein aber nicht so aggressiv bitte", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "rap aber chillig", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "noch trauriger", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "nicht ganz so schnell", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "gib mir hiphop", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "wo ist apache", "labels": ["intent_search"]}
+{"text": "melancholischer rap xd", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro schneller aber chillig", "labels": ["intent_refine"]}
+{"text": "ich will sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "aggressiver bitte bitte", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "kannst du daraus was traurigeres machen bitte", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "haerter", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "bock auf hardtekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "mach mir wieder sowas wie meine schillah playlist bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro mehr wie das", "labels": ["intent_similar_track"]}
+{"text": "bro noch trauriger", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "chilliger bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "spiel sie bitte", "labels": ["intent_start"]}
+{"text": "playlist wie meine lieblingssongs liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "ok start", "labels": ["intent_start"]}
+{"text": "davon aehnliche tracks", "labels": ["intent_similar_track"]}
+{"text": "start", "labels": ["intent_start"]}
+{"text": "ich will sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach mir wieder sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "deutschrap melancholisch bitte", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro nicht ganz so schnell", "labels": ["intent_refine"]}
+{"text": "mach mehr rap rein aber nicht so aggressiv", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "sanfter", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro gib mir hiphop", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "langsamer xd", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "langsamer", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "bro bau mir etwas wie meine rap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach rap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "spiel rolexz", "labels": ["intent_search"]}
+{"text": "bro spiel rolexz", "labels": ["intent_search"]}
+{"text": "noch trauriger", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "bro ich will sowas wie meine schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "nochmal wie meine schillah", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "wie meine schillah playlist bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "haerter", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "bro aggressiver bitte", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "bau mir sowas in richtung schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "ich will mehr von diesem vibe bitte", "labels": ["intent_similar_track"]}
+{"text": "baue an", "labels": ["intent_start"]}
+{"text": "ruhiger im tempo", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "spiel rap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "entspannter xd", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "spiel rap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "bro langsamer", "labels": ["intent_refine"]}
+{"text": "mach mehr rap rein aber nicht so aggressiv", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "wo ist apache", "labels": ["intent_search"]}
+{"text": "nicht ganz so schnell", "labels": ["intent_refine"]}
+{"text": "mach sowas wie meine nacht playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "start", "labels": ["intent_start"]}
+{"text": "mach die playlist trauriger bitte", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "sanfter", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "mach tekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "weniger bpm", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "haerter xd", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "bock auf hardtekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "bock auf party xd", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "mehr solcher tracks", "labels": ["intent_similar_track"]}
+{"text": "bro melancholischer rap", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mehr bpm", "labels": ["intent_refine"]}
+{"text": "bau mir etwas wie meine rap liste xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "langsamer", "labels": ["intent_refine"]}
+{"text": "ruhiger im tempo bitte", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "mehr bpm", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "wieder was in richtung rap", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "etwas schneller bitte xd", "labels": ["intent_refine"]}
+{"text": "nochmal wie meine schillah", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "etwas schneller bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "bro was zum feiern", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "such bonez mc", "labels": ["intent_search"]}
+{"text": "deutschrap melancholisch xd", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "was zum feiern", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "wieder was in richtung lieblingssongs", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "weniger bpm", "labels": ["intent_refine"]}
+{"text": "mehr wie das", "labels": ["intent_similar_track"]}
+{"text": "bro sanfter", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "wieder was in richtung deutschrap", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "playlist wie meine nacht liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach mehr rap rein aber nicht so aggressiv xd", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "etwas melancholischer xd", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mach sowas wie meine deutschrap playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bock auf deutschrap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "mach wieder was wie meine chill-rap playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bock auf hardtekk bitte", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "was zum feiern bitte", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "wo ist apache bitte", "labels": ["intent_search"]}
+{"text": "langsamer", "labels": ["intent_refine"]}
+{"text": "bock auf party bitte", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "mach sie depri", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "treibender bitte", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "nicht ganz so schnell xd", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "noch trauriger", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "nicht ganz so schnell", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "mach tekk bitte", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "weniger energie", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "ok start", "labels": ["intent_start"]}
+{"text": "los xd", "labels": ["intent_start"]}
+{"text": "erstell was aehnliches zu meiner rap wiedergabeliste xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "wieder was in richtung schillah", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "spiel sie xd", "labels": ["intent_start"]}
+{"text": "mehr bpm aber trotzdem chillig", "labels": ["intent_refine"]}
+{"text": "bro etwas schneller bitte", "labels": ["intent_refine"]}
+{"text": "bro party musik", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "playlist wie meine deutschrap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bau mir etwas wie meine rap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "noch mehr davon", "labels": ["intent_similar_track"]}
+{"text": "bro mehr sad vibes", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "spiel rap bitte", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "treibender", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "gib mir hiphop", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "spiel hardtekk xd", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "schneller aber chillig", "labels": ["intent_refine"]}
+{"text": "deutschrap melancholisch", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "baue wieder was wie meine chill-rap playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "langsamer bitte", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "mach mir eine playlist wie meine chill rap sammlung xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "baue mehr rap rein aber nicht so aggressiv", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "sanfter bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "davon aehnliche tracks bitte", "labels": ["intent_similar_track"]}
+{"text": "playlist wie meine deutschrap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "langsamer xd", "labels": ["intent_refine"]}
+{"text": "bock auf deutschrap xd", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "bro schneller", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "treibender xd", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "erstell was aehnliches zu meiner rap wiedergabeliste bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro langsamer", "labels": ["intent_refine", "slot_bpm_down"]}
+{"text": "bau was wie meine rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "playlist wie meine deutschrap liste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mehr tempo", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "mach an", "labels": ["intent_start"]}
+{"text": "bro mehr bpm", "labels": ["intent_refine"]}
+{"text": "noch trauriger bitte", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "such bonez mc bitte", "labels": ["intent_search"]}
+{"text": "schneller", "labels": ["intent_refine", "slot_bpm_up"]}
+{"text": "mach sowas wie meine chill-rap playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "ich will mehr von diesem vibe xd", "labels": ["intent_similar_track"]}
+{"text": "noch trauriger xd", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "los", "labels": ["intent_start"]}
+{"text": "aehnliche songs", "labels": ["intent_similar_track"]}
+{"text": "mach mir wieder sowas wie meine schillah playlist xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "ok start", "labels": ["intent_start"]}
+{"text": "weniger bpm", "labels": ["intent_refine"]}
+{"text": "mach rap bitte", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "weniger energie bitte", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "mehr bpm", "labels": ["intent_refine"]}
+{"text": "baue was ruhigeres", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "wieder was in richtung chill-rap", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "ich will mehr von diesem vibe", "labels": ["intent_similar_track"]}
+{"text": "bro bock auf hardtekk", "labels": ["intent_play_mood", "slot_genre_tekk"]}
+{"text": "mehr solcher tracks", "labels": ["intent_similar_track"]}
+{"text": "mehr sad vibes", "labels": ["intent_refine", "slot_mood_sad", "slot_energy_low"]}
+{"text": "deutschrap melancholisch", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mach was in richtung meiner chill rap sammlung bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bro bock auf deutschrap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "aggressiver bitte", "labels": ["intent_refine", "slot_energy_high", "slot_mood_aggressive"]}
+{"text": "etwas schneller bitte", "labels": ["intent_refine"]}
+{"text": "mehr bpm xd", "labels": ["intent_refine"]}
+{"text": "wie meine schillah playlist bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach was in richtung meiner chill rap sammlung xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "baue was in richtung meiner chill rap sammlung", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "entspannter", "labels": ["intent_refine", "slot_energy_low", "slot_mood_calm"]}
+{"text": "bro mach rap", "labels": ["intent_play_mood", "slot_genre_rap"]}
+{"text": "bro wie meine schillah playlist bitte", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "rap aber chillig xd", "labels": ["intent_play_mood", "slot_genre_rap", "slot_mood_sad", "slot_energy_low"]}
+{"text": "mach sowas wie meine lieblingssongs playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "bock auf party", "labels": ["intent_play_mood", "slot_mood_party", "slot_energy_high"]}
+{"text": "erstell was aehnliches zu meiner rap wiedergabeliste", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "davon aehnliche tracks", "labels": ["intent_similar_track"]}
+{"text": "bau mir sowas in richtung schillah playlist", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "etwas schneller bitte", "labels": ["intent_refine"]}
+{"text": "mehr tempo", "labels": ["intent_refine"]}
+{"text": "bro weniger bpm", "labels": ["intent_refine"]}
+{"text": "mehr wie das bitte", "labels": ["intent_similar_track"]}
+{"text": "mach was in richtung meiner chill rap sammlung", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "ich will sowas wie meine schillah playlist xd", "labels": ["intent_similar_playlist", "slot_has_playlist_ref"]}
+{"text": "mach tekk xd", "labels": ["intent_play_mood", "slot_genre_tekk"]}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "genres": {
+    "hardtekk": {"related": ["tekk", "hardcore", "rave"], "typicalBpm": [150, 190], "energy": "high"},
+    "techno": {"related": ["tech house", "minimal"], "typicalBpm": [120, 140], "energy": "high"},
+    "rap": {"related": ["deutschrap", "hiphop", "trap"], "typicalBpm": [70, 110], "energy": "mid"},
+    "trap": {"related": ["rap", "drill"], "typicalBpm": [130, 160], "energy": "mid-high"},
+    "house": {"related": ["deep house", "tech house"], "typicalBpm": [118, 130], "energy": "mid"},
+    "dnb": {"related": ["drum and bass", "jungle"], "typicalBpm": [160, 180], "energy": "high"},
+    "rock": {"related": ["metal", "indie"], "typicalBpm": [90, 140], "energy": "mid-high"},
+    "pop": {"related": ["dance pop"], "typicalBpm": [90, 130], "energy": "mid"}
+  },
+  "features": {
+    "bpm": "Tempo in Beats pro Minute; 85 kann Half-Time von 170 sein.",
+    "lufs": "Integrierte Lautheit (BS.1770-ähnlich, lokal).",
+    "centroid": "Spektraler Schwerpunkt in Hz.",
+    "rhythmRegularity": "0..1 Regelmäßigkeit der Onsets.",
+    "analysisLevels": ["NONE", "LIGHT", "FULL"]
+  },
+  "limits": [
+    "Kein Cloud-Genre-Service.",
+    "BPM ist Schätzung mit Konfidenz.",
+    "Bluetooth ist typischerweise komprimiert."
+  ]
+}
