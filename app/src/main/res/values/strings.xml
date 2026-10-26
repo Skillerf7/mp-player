@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Secret Player</string>
+    <string name="widget_description">Wiedergabe steuern: Cover, Titel, Play/Pause, Vor/Zurück</string>
+</resources>

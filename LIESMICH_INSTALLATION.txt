@@ -1,0 +1,25 @@
+# Secret Player – Poweramp-Druck Fixed Source
+
+## WICHTIG
+Diese ZIP ist QUELLCODE, keine APK.
+Wenn du die ZIP direkt installieren willst, kommt "Paket kaputt" – das ist normal.
+
+## APK bauen (GitHub Actions – empfohlen)
+1. Dieses Repo auf GitHub pushen (Branch main)
+2. Actions → Workflow "Build APK" → Run workflow
+3. Nach grünem Build: Artifact **SecretPlayer-debug-apk** herunterladen
+4. Die heruntergeladene Datei ist eine ZIP → entpacken
+5. Darin liegt app-debug.apk
+6. APK-Größe prüfen (muss mehrere MB haben, nicht 0)
+7. APK per USB/Drive aufs Handy (NICHT über WhatsApp – kaputt oft die Datei)
+8. Mit Dateien-App installieren + unbekannte Quellen erlauben
+
+## Warum "Beim Parsen des Pakets..." kam
+Die vorherige APK-Datei war korrupt (unvollständiger Download).
+Die Daten waren kaputt – nicht reparierbar. Neu bauen löst es.
+
+## Preset
+Built-in: **Poweramp Druck**
+- Low-Shelf +7 dB @ 100 Hz (Q 1.03)
+- High-Shelf +6.2 dB @ 8 kHz (Q 0.83)
+- Bass-Boost + Mitten-Cut für den Punch

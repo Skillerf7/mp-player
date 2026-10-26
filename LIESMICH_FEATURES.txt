@@ -1,0 +1,9 @@
+Secret Player – integrierte Features (lokal + optional Online-Cover)
+
+1) Songtext – Cover lang drücken → „Songtext anzeigen“ (Tags/DB)
+2) Lesezeichen – „Lesezeichen setzen“ / „anzeigen“ (lokal, Position)
+3) Online-Cover – „Online-Cover suchen“ + Fallback ohne eingebettetes Cover (iTunes, INTERNET)
+4) Like/Favoriten – Herz, Menü „Zu Favoriten“, Chat „das ist geil“ → Store.favs()
+5) ConstraintExtractor + ReasoningCore – Multi-Constraints im Assistenten
+
+Build: gradle :app:assembleDebug

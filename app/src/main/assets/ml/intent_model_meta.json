@@ -1,0 +1,26 @@
+{
+  "dim": 1024,
+  "labels": [
+    "intent_similar_playlist",
+    "intent_similar_track",
+    "intent_play_mood",
+    "intent_refine",
+    "intent_start",
+    "intent_search",
+    "slot_genre_rap",
+    "slot_genre_tekk",
+    "slot_genre_techno",
+    "slot_mood_sad",
+    "slot_mood_calm",
+    "slot_mood_party",
+    "slot_mood_aggressive",
+    "slot_energy_low",
+    "slot_energy_high",
+    "slot_bpm_up",
+    "slot_bpm_down",
+    "slot_has_playlist_ref"
+  ],
+  "threshold": 0.45,
+  "version": 2,
+  "hash": "kotlin_string_hashcode"
+}
