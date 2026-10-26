@@ -459,10 +459,10 @@ class Assistant(
             notTooHard = reason.constraints.notTooHard,
             notTooSlow = reason.constraints.notTooSlow,
             targetBpm = reason.constraints.targetBpm,
+            bpmTolerance = reason.constraints.bpmTolerance,
             preferUnheard = req.preferUnheard || reason.constraints.preferUnheard
         )
-        // BPM-Ziel: soft via softAvoid tracks far from target is heavy; use preferTerms empty and post-filter scores in reasoning
-        // already handled partially by ReasoningCore / HybridScore
+        // BPM-Ziel wird im Recommender ueber AdaptiveMusic.constraintDelta (targetBpm) als Soft-Score beruecksichtigt
         // Gedaechtnis als HINWEIS: die aktuelle Anfrage gewinnt immer (ausdrueckliches Genre ueberstimmt "kein X")
         val hints = try { memory.prune(); memory.hints() } catch (e: Exception) { MemoryHints(emptyList(), emptyList()) }
         val askedTerms = i.genres.map { it.lowercase() }

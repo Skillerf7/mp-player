@@ -221,28 +221,30 @@ object Eq {
         "Bass & Höhen" to legacy(bass = 5f, treble = 5f, pre = -4f),
         "Klar" to legacy(treble = 2f, g = listOf(-1f, 0f, 1f, 3f, 2f)),
         // Genre-Bass-Presets: kontrollierter Headroom (Preamp negativ), kein Clipping-Wahn
+        // Werte so gewaehlt, dass Spitzenanhebung <= ~20 dB bleibt und der Auto-Preamp (max -16 dB)
+        // sie voll ausgleicht (Netto ~ +1 dB) - Bass-Regler, Sub-Shelf, PARAM-2 und Baender stapeln sich!
         "Deep Bass" to Dsp(
-            bass = 5f, bassBoost = true, pre = -4f, limiter = true,
-            pLowDb = 5f,
+            bass = 3f, bassBoost = true, pre = -4f, limiter = true,
+            pLowDb = 3.5f,
             bands = fromAnchors(
                 listOf(35f, 55f, 80f, 120f, 250f, 500f, 1200f, 3000f, 6000f, 12000f),
-                listOf(4f, 5f, 3.5f, 1.5f, -1f, -2f, -1f, 0f, 0.5f, 1f)
+                listOf(3f, 3.5f, 2.5f, 1f, -1f, -2f, -1f, 0f, 0.5f, 1f)
             )
         ),
         "Subbass" to Dsp(
-            bass = 6f, bassBoost = true, pre = -5f, limiter = true,
-            pLowDb = 6.5f,
+            bass = 3f, bassBoost = true, pre = -5f, limiter = true,
+            pLowDb = 3.5f,
             bands = fromAnchors(
                 listOf(30f, 45f, 65f, 100f, 200f, 400f, 1000f, 2500f, 6000f, 12000f),
-                listOf(5.5f, 5f, 3f, 0.5f, -2f, -3f, -1.5f, 0f, 0f, 0.5f)
+                listOf(4f, 3.5f, 2f, 0.5f, -2f, -3f, -1.5f, 0f, 0f, 0.5f)
             )
         ),
         "Hardtekk" to Dsp(
-            bass = 4f, treble = 3f, bassBoost = true, pre = -5f, limiter = true,
-            pLowDb = 5.5f, pHighDb = 3f,
+            bass = 3.5f, treble = 3f, bassBoost = true, pre = -5f, limiter = true,
+            pLowDb = 4.5f, pHighDb = 3f,
             bands = fromAnchors(
                 listOf(40f, 60f, 90f, 150f, 300f, 600f, 1500f, 3500f, 7000f, 12000f),
-                listOf(3.5f, 4.5f, 2.5f, 0f, -3f, -4f, -2f, 1f, 3f, 3.5f)
+                listOf(3f, 4f, 2.5f, 0f, -3f, -4f, -2f, 1f, 3f, 3.5f)
             )
         ),
         "Tekk" to Dsp(
@@ -270,11 +272,11 @@ object Eq {
             )
         ),
         "Rap" to Dsp(
-            bass = 5f, treble = 1f, bassBoost = true, pre = -4.5f, limiter = true,
-            pLowDb = 5.5f,
+            bass = 3f, treble = 1f, bassBoost = true, pre = -4.5f, limiter = true,
+            pLowDb = 4f,
             bands = fromAnchors(
                 listOf(40f, 60f, 90f, 150f, 300f, 600f, 1500f, 3000f, 6000f, 10000f),
-                listOf(4f, 5f, 3f, 1.5f, -1f, -2f, 1.5f, 2f, 1f, 0.5f)
+                listOf(3f, 3.5f, 2.5f, 1.5f, -1f, -2f, 1.5f, 2f, 1f, 0.5f)
             )
         ),
         "Neutral" to Dsp(pre = 0f, limiter = true),

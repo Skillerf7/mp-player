@@ -28,7 +28,8 @@ data class QueueRequest(
     val wantMelancholy: Boolean = false,
     val notTooHard: Boolean = false,
     val notTooSlow: Boolean = false,
-    val targetBpm: Int? = null
+    val targetBpm: Int? = null,
+    val bpmTolerance: Int? = null
 )
 
 data class QueueResult(
@@ -271,7 +272,8 @@ object Recommender {
                     notTooSlow = req.notTooSlow,
                     preferUnheard = req.preferUnheard,
                     playCount = info.playCount,
-                    targetBpm = req.targetBpm
+                    targetBpm = req.targetBpm,
+                    bpmTolerance = req.bpmTolerance
                 )
                 s += delta
             }

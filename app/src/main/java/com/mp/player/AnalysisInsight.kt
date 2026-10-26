@@ -48,7 +48,7 @@ object AnalysisInsight {
             parts += "Onsets ${"%.1f".format(deep.onsetDensity)}/s"
             parts += "Punch ${"%.0f".format(deep.punchIndex * 100)} %"
             if (deep.keyGuess.isNotBlank()) parts += "Key ${deep.keyGuess}"
-            parts += "Signalabdeckung ${"%.0f".format(deep.quality * 100)} % (kein Trefferquote)"
+            parts += "Signalabdeckung ${"%.0f".format(deep.quality * 100)} % (keine Trefferquote)"
         }
         if (parts.isEmpty()) return "Analyse vorhanden, wenige Merkmale."
         return parts.joinToString(" · ")

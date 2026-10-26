@@ -81,7 +81,31 @@ internal object EqParser {
     /** "..., aber nicht uebertrieben" begrenzt die Staerke - es dreht die Richtung NICHT um. */
     private val MODERATE = Regex("""(?:,\s*)?(?:aber\s+)?nicht\s+(?:zu\s+|so\s+)?(?:uebertrieben|uebertreib\w*|extrem|krass|uebermaessig|zu\s+viel|zu\s+stark|zu\s+heftig)""")
 
-    fun extract(t00: String): Parsed? {
+    /** "zu schwach / zu leise / zu wenig" (Bass ist zu schwach) heisst MEHR - frueher wurde "zu" immer als Absenkung gelesen. */
+    private val LACK = Regex("""\bzu\s+(?:schwach|leise|wenig|flach|zahm|duerftig|mager)\b""")
+    private val DIR_HINT = Regex("""\b(?:mehr|weniger|staerker|schwaecher|lauter|leiser|runter|hoch|rein|raus|bisschen|etwas|viel|zu|zuviel|zuwenig|druecken|drueck\w*)\b""")
+    private val LOW_END = Regex("""\b(?:low[\s-]?end|lowend|sub[\s-]?bass|subbass|subwoofer)\b""")
+    private val SUB = Regex("""\bsub\b""")
+    private val TIEFEN = Regex("""\b(?:die\s+)?tiefen\b(?!\s+(?:bass|sub))""")
+    private val FUNDAMENT = Regex("""\bfundament\b""")
+
+    /**
+     * Umgangssprachliche Bass-Synonyme ("Sub", "Low-End", "Fundament", "die Tiefen") auf das Kernwort "bass" abbilden.
+     * "Tiefen"/"Fundament" nur mit Richtungswort, damit "tiefen Gespraechen" kein EQ-Befehl wird.
+     */
+    internal fun canonicalize(t: String): String {
+        var s = LACK.replace(t, " mehr ")
+        s = LOW_END.replace(s, "bass")
+        s = SUB.replace(s, "bass")
+        if (DIR_HINT.containsMatchIn(s)) {
+            s = TIEFEN.replace(s, "bass")
+            s = FUNDAMENT.replace(s, "bass")
+        }
+        return s
+    }
+
+    fun extract(t000: String): Parsed? {
+        val t00 = canonicalize(t000)
         val moderate = MODERATE.containsMatchIn(t00)
         val t0 = MODERATE.replace(t00, " ")
         // "zwischen Bass und Hoehen" bedeutet Mitten

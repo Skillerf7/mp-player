@@ -137,7 +137,8 @@ object AdaptiveMusic {
         notTooSlow: Boolean = false,
         preferUnheard: Boolean = false,
         playCount: Int = 0,
-        targetBpm: Int? = null
+        targetBpm: Int? = null,
+        bpmTolerance: Int? = null
     ): Pair<Float, List<String>> {
         var s = 0f
         val reasons = ArrayList<String>()
@@ -174,10 +175,11 @@ object AdaptiveMusic {
                 kotlin.math.abs(p.bpm - targetBpm),
                 kotlin.math.min(kotlin.math.abs(p.bpm * 2 - targetBpm), kotlin.math.abs(p.bpm - targetBpm * 2f))
             )
+            val near = (bpmTolerance ?: 6).coerceIn(3, 40).toFloat()
             when {
-                d <= 6f -> { s += 0.18f; reasons += "BPM nahe $targetBpm" }
-                d <= 15f -> s += 0.06f
-                d > 35f -> { s -= 0.2f; reasons += "BPM weit von $targetBpm" }
+                d <= near -> { s += 0.18f; reasons += "BPM nahe $targetBpm" }
+                d <= near + 9f -> s += 0.06f
+                d > near + 29f -> { s -= 0.2f; reasons += "BPM weit von $targetBpm" }
             }
         }
         return s.coerceIn(-0.4f, 0.4f) to reasons

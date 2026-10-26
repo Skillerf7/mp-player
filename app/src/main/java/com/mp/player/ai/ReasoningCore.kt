@@ -64,6 +64,7 @@ object ReasoningCore {
         val expl = buildString {
             if (merged.moods.isNotEmpty()) append("Stimmung: ${merged.moods.joinToString { m -> m.label }}. ")
             if (merged.genres.isNotEmpty()) append("Genre: ${merged.genres.joinToString()}. ")
+            if (merged.excludeGenres.isNotEmpty()) append("Ohne: ${merged.excludeGenres.joinToString()}. ")
             if (merged.notTooSlow) append("Nicht zu langsam. ")
             if (merged.notTooQuiet) append("Nicht zu leise. ")
             if (merged.keepHardTracks) append("Harte Tracks behalten. ")
@@ -95,7 +96,8 @@ object ReasoningCore {
         return base.copy(
             mood = mood,
             exclude = excl2,
-            genres = if (c.genres.isNotEmpty()) c.genres else base.genres,
+            genres = (if (c.genres.isNotEmpty()) c.genres else base.genres).filter { it !in c.excludeGenres },
+            avoidTerms = (base.avoidTerms + ConstraintExtractor.excludeTerms(c.excludeGenres)).distinct(),
             preferUnheard = base.preferUnheard || c.preferUnheard,
             minutes = c.minutes ?: base.minutes
         )
